@@ -1,0 +1,13 @@
+[project]
+authors = ["Jack Hayes <jehayes@uw.edu>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "pixi-hello-world"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+hello = "python hello_world.py"
+
+[dependencies]
+python = ">=3.13.0,<4"
